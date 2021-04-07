@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    font-family: 'Tinos', serif;
+    color: #454543;
+    background: radial-gradient(circle, rgba(174,199,238,1) 31%, rgba(159,133,96,1) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    background: rgba(225,233,229, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 25px;
+    
+}
+
+.form input  {
+    background: rgba(225,233,229, 0.2);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.form textarea {
+    background: rgba(225,233,229, 0.2);
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: rgb(242 200 28);
+    border: rgb(242 200 28);
+}
+
+.hidden-message {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    width: 300px;
+    color: #34520e;
+    background-color: rgba(154, 235, 49, .3);
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.success{
+    border: 2px solid green;
+}
+
+
+
